@@ -1580,3 +1580,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 }
+
+@media (max-width: 576px) {
+  .milestone_img{
+    width: 325px;
+  }
+}

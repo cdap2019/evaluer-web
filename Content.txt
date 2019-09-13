@@ -78,3 +78,14 @@ Subscribe to our newsletter to get to know more about our product, new features,
 -------------------email---------------
 use evaluer.contactus@gmail.com
 pwd = evaluer123
+
+----------------methodology--------------------
+To provide application functionality, usually web-based software applications, from the databases where the required data processing and computing is executed to be utilized by clients or end-users with the use of an  API. The services for delivering applications on a network infrastructure aim to provide a reliable user experience by providing, load balancing, security, latency and optimizations which combine to provide application content seamlessly. 
+The two types of services delivered through this application are  Current price prediction for particular area and Future value prediction. The usage of geo location of the user is useful because it is flexible and allows the customer to interact in a setting that is often most comfortable for them. 
+The data collection unit is implemented to get data from the professional valuers across the country.
+
+--------------technologies-----------------------
+Python Anaconda distribution (Numpy, Pandas, Matplotlib, scikit-learn, keras, Tensorflow)
+Angular 6
+Google API
+

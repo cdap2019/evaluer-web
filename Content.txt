@@ -1,9 +1,9 @@
 --------Reduce the slider to two slides------------------------------
 We are professional
-	Predictions based on the past accurate data gathered through valuation  professionals provide you with reliable predictions 
+	Predictions based on the past accurate data gathered through valuation  professionals provide you with reliable information 
 Lightning fast
 	Lightning fast predictions following just a few clicks 
-about us 
+
 
 -------------For the cages-----------------------------------------
 1st ----------------
@@ -68,5 +68,13 @@ milestones
 	Final presentation 10%
 	Viva 15%
 	
+------------------footer---------------------
+Evaluer
+Predictions based on the past accurate data gathered through valuation  professionals provide you with lightning fast predictions following just a few clicks.
 
-	
+our newsletter--------------------------------
+Subscribe to our newsletter to get to know more about our product, new features, and offers
+
+-------------------email---------------
+use evaluer.contactus@gmail.com
+pwd = evaluer123

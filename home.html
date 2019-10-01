@@ -26,7 +26,14 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+  
+  <!--Swiper Stylesheet-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+<link rel="stylesheet" href="./style.css">
+ <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -150,21 +157,21 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 box">
+          <div class="col-lg-4 box box-bg">
             <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Accuracy</a></h4>
+            <h4 class="title" style="color:green">Accuracy</h4>
             <p class="description">Predictions based on the past accurate data gathered through valuation  professionals provide you with reliable predictions.</p>
           </div>
 
           <div class="col-lg-4 box box-bg">
             <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Speed</a></h4>
+            <h4 class="title" style="color:green">Speed</h4>
             <p class="description">Unmatched speed of the value predictions following just a couple of clicks.</p>
           </div>
 
-          <div class="col-lg-4 box">
+          <div class="col-lg-4 box box-bg">
             <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">User friendly</a></h4>
+            <h4 class="title" style="color:green">User friendly</h4>
             <p class="description">Attractive user interfaces to provide you with easily understandable content.</p>
           </div>
 
@@ -183,14 +190,13 @@
         </header>
 
         <div class="row about-cols">
-
           <div class="col-md-4 wow fadeInUp">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <h2 class="title">Our Mission</h2>
               <p>              
                 Assisting people by providing them with accurate valuation, facts about how the land is going to be affected by various means of development projects, ultimately to decide whether it would be useful for their expected purpose.
               </p>
@@ -203,7 +209,7 @@
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <h2 class="title">Our Vision</h2>
               <p>
                   Real Property are the most valuable possession of most of the common people. Getting the proper valuation for these real properties is very much important. 
               </p>
@@ -216,17 +222,13 @@
                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <h2 class="title">Our Plan</h2>
               <p>
                   Provide people with fair accurate prediction of the land they are going to buy, so that they can decide the investment is fruitful for them. 
               </p>
             </div>
           </div>
-
-      
-
         </div>
-
       </div>
     </section><!-- #about -->
 
@@ -243,70 +245,73 @@
         <div class="row about-cols">
 
           <div class="col-md-4 wow fadeInUp">
-            <div class="about-col" style="margin-bottom:10px;">
+            <div class="about-col">
               <div class="img">
                 <img src="img/lit-review.jpg" style="width: 255px;height: 169px;" alt="" class="img-fluid">
               
               </div>
-              <h2 class="title"><a href="#">Literature Review</a></h2>
+              <h2 class="title">Literature Review</a></h2>
               <p>
                 The use of AI for residential value forecasting has been suggested in the literature from 1990s.
+                Our intention is to identify the ways to use their underlying methodology in a suitable manner in Sri Lankan context.
+                <button type="button" style="margin-top: 35px" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#litReview">
+                    Read More &gt;&gt;
+                  </button> 
               </p>
-              <br><br><br>
-              <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#litReview">
-                Read More &gt;&gt;
-              </button>
             </div>
           </div>
 
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="about-col" style="margin-bottom:10px;">
+            <div class="about-col" >
               <div class="img">
                 <img src="img/research-gap.jpg" style="width: 255px;height: 169px;" alt="" class="img-fluid">
              
               </div>
-              <h2 class="title"><a href="#">Research Gap</a></h2>
+              <h2 class="title">Research Gap</a></h2>
               <p>
-                During the AI Asia Summit 2018, the summit panelists Dr. Yasantha Rajakarunanayake, Dr Rukshan Baduwita , Dr. James Shanahan  and Dr. Chrisantha Fernando agreed that Sri Lanka is behind in terms of AI startups, despite the fact software industry is vastly growing area.
+                  Artificial Intelligence, Machine Learning, Deep Learning based applications have become a trend in Sri Lanka as well as in the world.
+                  But there is no information regarding application of these technologies in real estate value prediction in Sri Lankan context. 
+                  <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchGap">
+                      Read More &gt;&gt;
+                  </button>
               </p>
               
-              <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchGap">
-                Read More &gt;&gt;
-              </button>
+              
             </div>
           </div>
 
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="about-col" style="margin-bottom:10px;">
+            <div class="about-col" >
               <div class="img">
                 <img src="img/problem.jpg" style="width: 255px;height: 169px;" alt="" class="img-fluid">
                 
               </div>
-              <h2 class="title"><a href="#">Research Problem</a></h2>
+              <h2 class="title">Research Problem</a></h2>
               <p>
-                The main research problem is to develop an automated system to evaluate the land based on its neighbourhood economical value and identify the possible effects of development work on the value of the land in the future.
-              </p>
-              <br>
-              <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchProb">
-                Read More &gt;&gt;
-              </button>
+                The main research problem is to develop an automated system to evaluate the land based on its neighbourhood economical value and identify 
+                the possible effects of development work on the value of the land in the future.
+                <button type="button" style="margin-top: 35px" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchProb">
+                    Read More &gt;&gt;
+                  </button>
+              </p>            
             </div>
           </div>
         </div>
         <div class="row about-cols">
 
           <div class="col-md-4 wow fadeInUp">
-            <div class="about-col" style="margin-bottom:10px;">
+            <div class="about-col">
               <div class="img">
                 <img src="img/obj.jpg" style="width: 255px;height: 169px;" alt="" class="img-fluid">
               </div>
-              <h2 class="title"><a href="#">Research Objectives</a></h2>
+              <h2 class="title">Research Objectives</a></h2>
               <p>
                 The main objective of our research is to develop a portable application which can provide instant report of a selected land parcel which can provide the users with an insight of the land with current value and future value.
+                <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchObj">
+                    Read More &gt;&gt;
+                  </button>
               </p>
-              <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchObj">
-                Read More &gt;&gt;
-              </button>
+              
             </div>
           </div>
 
@@ -316,14 +321,15 @@
                 <img src="img/methodology.jpg" style="width: 255px;height: 169px;" alt="" class="img-fluid">
              
               </div>
-              <h2 class="title"><a href="#">Methodology</a></h2>
+              <h2 class="title">Methodology</a></h2>
               <p>
                 To provide application functionality, usually web-based software applications, from the databases where the required data processing and computing is executed to be utilized by clients or end-users with the use of an API.
+                <button  type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#methodology">
+                    Read More &gt;&gt;
+                  </button>
               </p>
               
-              <button  type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#methodology">
-                Read More &gt;&gt;
-              </button>
+              
             </div>
           </div>
 
@@ -333,11 +339,11 @@
                 <img src="img/tech.jpg" style="width: 255px;height: 169px;" alt="" class="img-fluid">
                 
               </div>
-              <h2 class="title"><a href="#">Technologies</a></h2>
-              <p>
+              <h2 class="title">Technologies</a></h2>
+              <!-- <p> -->
                <ul>
                  <li>
-                  Python Anaconda distribution (Numpy, Pandas, Matplotlib, scikit-learn, keras, Tensorflow)
+                  <i>Python Anaconda distribution (Numpy, Pandas, Matplotlib, scikit-learn, keras, Tensorflow)</i>
                  </li>
                  <li>
                   Angular 5
@@ -345,12 +351,10 @@
                  <li>
                   Google API
                  </li>
+                 <li>
+                   MongoDB
+                 </li>
                </ul>
-              </p>
-              <br>
-              <!-- <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#researchProb">
-                Read More &gt;&gt;
-              </button> -->
             </div>
           </div>
         </div>
@@ -371,15 +375,15 @@
 
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Accurate current value prediction</a></h4>
+            <h4 class="title">Accurate current value prediction</h4>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-            <h4 class="title"><a href="">Reliable future value prediction</a></h4>
+            <h4 class="title">Reliable future value prediction</h4>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="">Valuer recommendation system</a></h4>
+            <h4 class="title">Valuer recommendation system</h4>
           </div>
 
         </div>
@@ -390,23 +394,143 @@
         <!--==========================
       Milestone Section
     ============================-->
-    <section id="milestone">
-      <div class="container">
 
-        <header class="section-header">
-          <h3>Milestone</h3>
+    <!----ms 2---->
+     <section id="milestone" class="cd-timeline js-cd-timeline">
+     	<header class="section-header">
+          <h3 class="section-title">Milestones</h3>
         </header>
+    <div class="container max-width-lg cd-timeline__container">
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
 
-        <div class="row">
-          <!-- <div class="col-md-4"></div> -->
-          <div class="col-lg-12 col-md-6 col-sm-3">
-            <img class="milestone_img" src="./img/milestone.jpg" alt="" srcset="">
+        <div class="cd-timeline__content text-component">
+          <h2>Topic Assesment</h2>
+          <p class="color-contrast-medium">
+            Topic assessment is mainly to identify the feasibility of the topics selected by the students. In this step, topics might either be approved with minor and major suggestions, or might be rejected. Evaluer was accepted on the condition to prove the availability of data sources.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">January 16, 2019</span>
+            <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
           </div>
-          <!-- <div class="col-md-4"></div> -->
-        </div>
-      </div>
-    </section><!-- #milestone -->
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
 
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--movie">
+          <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Project Proposal</h2>
+          <p class="color-contrast-medium">
+              A project proposal is a detailed description of a series of activities aimed at solving the research problem. In order to be successful, the document should provide a logical presentation of the research idea and illustrate the significance of the idea. Project proposal document is for organizing time and resources to complete the project with high standard. It is an informal Contract to establish an agreement about the content and limits of the final output. This is a single document which should prepare by the group.
+              <ul>
+                <li>
+                  Project Proposal document  - 5%
+                </li>
+                <li>
+                  Project Proposal presentation - 5%
+                </li>
+              </ul>
+            </p>
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">March 13, 2019</span>
+            <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+        <div class="cd-timeline__content text-component">
+          <h2>SRS Documetation</h2>
+          <p class="color-contrast-medium">
+              The aim of this document is to gather and analyze and give an in-depth insight of the complete system by defining the problem statement in detail. Nevertheless, it also concentrates on the capabilities required by stakeholders and their needs while defining high-level product features. The detailed requirements of the system are provided in this document.
+              <ul>
+                  <li>
+                    One Group SRS and four individual SRS documents  - 6%
+                  </li>
+                  <li>
+                    Project Status Document - 1%
+                  </li>
+                </ul>
+            </p>
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">April 22,2019</span>
+            <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--location">
+          <img src="assets/img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Progress Presentation I</h2>
+          <p class="color-contrast-medium">
+            In this presentation 50% completed system is evaluated and further development areas are discussed
+            <ul>  
+              <li>
+                        Progress Presentation - 10%
+              </li>
+            </ul>
+          </p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">June 18,2019</span>
+            <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--location">
+          <img src="assets/img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Progress Presentation II</h2>
+          <p class="color-contrast-medium">
+            In this assessment 90% developed system is demonstrated along with the poster. Here, the examiners evaluate whether the system meets 90% of the requirements defined in SRS and give suggestions on the areas that should be developed. 
+            <ul>  
+                <li>
+                          Progress Presentation - 18%
+                </li>
+              </ul>
+          </p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">September 3, 2019</span>
+            <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--movie">
+          <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Final Presentation</h2>
+          <p class="color-contrast-medium">This is the content of the last section</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Feb 26</span>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+    </div>
+  </section> <!-- cd-timeline -->
+  <script src="assets/js/main.js"></script>
+	<!----/ms 2--------->
     <!--==========================
       Portfolio Section
     ============================-->
@@ -469,7 +593,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">GROUP_19-010</a></h4>
+                <h4>GROUP_19-010</a></h4>
                 <p>SRS</p>
               </div>
             </div>
@@ -483,7 +607,7 @@
                 </figure>
   
                 <div class="portfolio-info">
-                  <h4><a href="#">Rodrigo U.S.D</a></h4>
+                  <h4>Rodrigo U.S.D</a></h4>
                   <p>SRS</p>
                 </div>
               </div>
@@ -497,7 +621,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Bimali Y.M.Y</a></h4>
+                <h4>Bimali Y.M.Y</a></h4>
                 <p>SRS</p>
               </div>
             </div>
@@ -511,7 +635,7 @@
                 </figure>
   
                 <div class="portfolio-info">
-                  <h4><a href="#">Dharmaseelan T</a></h4>
+                  <h4>Dharmaseelan T</a></h4>
                   <p>SRS</p>
                 </div>
               </div>
@@ -525,7 +649,7 @@
                   </figure>
     
                   <div class="portfolio-info">
-                    <h4><a href="#">K.Thayalini</a></h4>
+                    <h4>K.Thayalini</a></h4>
                     <p>SRS</p>
                   </div>
                 </div>
@@ -568,7 +692,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">GROUP_19-010</a></h4>
+                <h4>GROUP_19-010</a></h4>
                 <p>Final Document</p>
               </div>
             </div>
@@ -582,7 +706,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Rodrigo U.S.D</a></h4>
+                <h4>Rodrigo U.S.D</a></h4>
                 <p>Final Document</p>
               </div>
             </div>
@@ -596,7 +720,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Bimali Y.M.Y</a></h4>
+                <h4>Bimali Y.M.Y</a></h4>
                 <p>Final Document</p>
               </div>
             </div>
@@ -610,7 +734,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Dharmaseelan T</a></h4>
+                <h4>Dharmaseelan T</a></h4>
                 <p>Final Document</p>
               </div>
             </div>
@@ -624,7 +748,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">K.Thayalini</a></h4>
+                <h4>K.Thayalini</a></h4>
                 <p>Final Document</p>
               </div>
             </div>
@@ -698,43 +822,41 @@
         <div class="section-header wow fadeInUp">
           <h3>Team</h3>
         </div>
-        <div class="row">
-          
+        <br>
+        <div class="row"> 
           <div class="col-6">
-              <h6>Mrs.M.P.A.W.Gamage</h6>
               <p><b>Supervisor</b></p>
+              <h6>Mrs.M.P.A.W.Gamage</h6>
           </div>
           <div class="col-6">
+              <p><b>Co-supervisor</b></p>
               <h6>Mrs.Pasangi Rathnayake</h6>
-             <p><b>Co-supervisor</p></h5>
           </div>
-         
-        </div>  
-        <hr>
+        </div> 
+        <br> 
+      
         <div class="row">
-
           <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <h6>Rodrigo U.S.D</h6>
-            <p><b>it16154490@my.sliit.lk</b></p>
+            <img src="./img/team-1.jpg" width="160px" height="200px" alt="">
+            <h6><b>Rodrigo U.S.D</b></h6>
+            <small>it16154490@my.sliit.lk</small>
           </div>
-
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h6>Bimali Y.M.Y</h6>
-            <p><b>it16423534@my.sliit.lk</b></p>
+            <img src="./img/team-2.jpeg" width="160px" height="200px" alt="">
+            <h6><b>Bimali Y.M.Y</b></h6>
+            <small>it16423534@my.sliit.lk</small>
           </div>
-
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <h6>Dharmaseelan T</h6>
-            <p><b>it16116566@my.sliit.lk</b></p>
+            <img src="./img/team-3.jpeg" width="160px" height="200px" alt="">
+            <h6><b>Dharmaseelan T</b></h6>
+            <small>it16116566@my.sliit.lk</small>
           </div>
-
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <h6>K.Thayalini</h6>
-            <p><b>it15156884@my.sliit.lk</b></p>
+            <img src="./img/team-4.jpeg" width="160px" height="200px" alt="">
+            <h6><b>K.Thayalini</b></h6>
+            <small>it15156884@my.sliit.lk</small>
           </div>
-
         </div>
-
       </div>
     </section><!-- #team -->
 
@@ -762,7 +884,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="">0777 668 498</a></p>
+              <p>0777 668 498</p>
             </div>
           </div>
 
@@ -770,7 +892,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:evaluer.contactus@gmail.com">evaluer.contactus@gmail.com</a></p>
+              <p>evaluer.contactus@gmail.com</p>
             </div>
           </div>
 
@@ -879,6 +1001,10 @@
   <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
+    <script src="assets/js/main.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+	<script  src="./script.js"></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -910,10 +1036,12 @@
         </button>
       </div>
       <div class="modal-body">
-        During the AI Asia Summit 2018, the summit panelists Dr. Yasantha Rajakarunanayake, Dr Rukshan Baduwita , Dr. James Shanahan  and Dr. Chrisantha Fernando agreed that Sri Lanka is behind in terms of AI startups, despite the fact software industry is vastly growing area. According to the survey conducted under research done by Karunanda et al, carried out in 2014, this is due to the lack of popularity, knowledge, experts, requirements and sponsorship for the AI related software projects.
-        But when analyzing local news we can see that AI based applications has become a trend. For Example Dialog has its own AI powered voice service to support its product service framework.
-        There are researches that have been conducted to predict the Stock prices of Sri Lanka with the usage of Artificial Intelligence and Machine Learning approaches, tilted A recurrent neural network approach in predicting daily stock prices an application to the Sri Lankan stock market, and Comparison of Support Vector Regression and Artificial Neural Network Models to Forecast daily Colombo Stock Exchange.According Li et al, to the real estate valuation researches evaluating the use of GIS technology have been conducted. But there is no information regarding application of AI technology in real estate value prediction in Sri Lankan context. 
-        Our proposed system uses AI model to do the estimations and forecasts. We design the application as much as inexpensive and cost effective to the user, simplified user interfaces, with accurate results which provides a concise but complete report of the analysis of the land.        
+        <p>
+            During the AI Asia Summit 2018, the summit panelists Dr. Yasantha Rajakarunanayake, Dr Rukshan Baduwita , Dr. James Shanahan  and Dr. Chrisantha Fernando agreed that Sri Lanka is behind in terms of AI startups, despite the fact software industry is vastly growing area. According to the survey conducted under research done by Karunanda et al, carried out in 2014, this is due to the lack of popularity, knowledge, experts, requirements and sponsorship for the AI related software projects.
+            But when analyzing local news we can see that AI based applications has become a trend. For Example Dialog has its own AI powered voice service to support its product service framework.
+            There are researches that have been conducted to predict the Stock prices of Sri Lanka with the usage of Artificial Intelligence and Machine Learning approaches, tilted A recurrent neural network approach in predicting daily stock prices an application to the Sri Lankan stock market, and Comparison of Support Vector Regression and Artificial Neural Network Models to Forecast daily Colombo Stock Exchange.According Li et al, to the real estate valuation researches evaluating the use of GIS technology have been conducted. But there is no information regarding application of AI technology in real estate value prediction in Sri Lankan context. 
+            Our proposed system uses AI model to do the estimations and forecasts. We design the application as much as inexpensive and cost effective to the user, simplified user interfaces, with accurate results which provides a concise but complete report of the analysis of the land.            
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -933,7 +1061,9 @@
         </button>
       </div>
       <div class="modal-body">
-        The use of AI for residential value forecasting has been suggested in the literature from 1990s. Although Sri Lanka is lacking an automated land valuation system, many up and running, reliable solutions have been implemented in developed countries like New Zealand, England and Wales, USA etc. It is obvious with the well-structured digital data infrastructure of those countries, they can implement very accurate systems. Our intention is to identify the ways to use their underlying methodology in a suitable manner in Sri Lankan context. 
+        <p>
+            The use of AI for residential value forecasting has been suggested in the literature from 1990s. Although Sri Lanka is lacking an automated land valuation system, many up and running, reliable solutions have been implemented in developed countries like New Zealand, England and Wales, USA etc. It is obvious with the well-structured digital data infrastructure of those countries, they can implement very accurate systems. Our intention is to identify the ways to use their underlying methodology in a suitable manner in Sri Lankan context. 
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -953,7 +1083,9 @@
         </button>
       </div>
       <div class="modal-body">
-        The main research problem is to develop an automated system to evaluate the land based on its neighbourhood economical value and identify the possible effects of development work on the value of the land in the future. This requirement of a solution to predict the current value and future value came from an expertise. While reviewing the literature, by means of supervisor meetings, we identified another aspect as an improvement, which is to predict the effect of future development work on a particular land, since Sri Lanka is a developing country, although the rate of development may vary, infrastructure development projects are carried out frequently. 
+        <p>
+            The main research problem is to develop an automated system to evaluate the land based on its neighbourhood economical value and identify the possible effects of development work on the value of the land in the future. This requirement of a solution to predict the current value and future value came from an expertise. While reviewing the literature, by means of supervisor meetings, we identified another aspect as an improvement, which is to predict the effect of future development work on a particular land, since Sri Lanka is a developing country, although the rate of development may vary, infrastructure development projects are carried out frequently. 
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -973,9 +1105,12 @@
         </button>
       </div>
       <div class="modal-body">
-        The main research problem is to develop an automated system to evaluate the land based on its neighbourhood economical value and identify the possible effects of development work on the value of the land in the future. This requirement of a solution to predict the current value and future value came from an expertise. While reviewing the literature, by means of supervisor meetings, we identified another aspect as an improvement, which is to predict the effect of future development work on a particular land, since Sri Lanka is a developing country, although the rate of development may vary, infrastructure development projects are carried out frequently.
+        <p>
+            The main research problem is to develop an automated system to evaluate the land based on its neighbourhood economical value and identify the possible effects of development work on the value of the land in the future. This requirement of a solution to predict the current value and future value came from an expertise. While reviewing the literature, by means of supervisor meetings, we identified another aspect as an improvement, which is to predict the effect of future development work on a particular land, since Sri Lanka is a developing country, although the rate of development may vary, infrastructure development projects are carried out frequently.
         We can never underestimate the duty of a valuation officer as the estimations are affected by numerous factors of particular to the area. But these factors are subjected to perception of each other�s experience, according to  Vaz J.,  the discretionary and the appraisers� subjectivity that characterize traditional real estate valuation are still allowed to take part in the formation of the asset price even when respecting international standards (EVS, IVS) or Appraisal Institution�s regulations (TEGOVA, RICS, etc.). For example, an experienced valuer who is familiar with the area maybe biased towards the effect of regional factors, social factors, than the physical factors compared to a fairly new valuer who still sticks to the land valuation theories and follow the proven procedure. Therefore, manual valuation can be considered as a more sensitive approach. 
-      </div>
+     
+        </p>
+       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>

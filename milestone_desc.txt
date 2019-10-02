@@ -1,0 +1,57 @@
+Topic Assesment 16th January 2019
+Topic assessment is mainly to identify the feasibility of the topics selected by the students. In this step, topics might either be approved with minor and major suggestions, or might be rejected. Evaluer was accepted on the condition to prove the availability of data sources.
+
+Project Charter 31 January 2019
+
+A project charter is a formal, typically short document that describes the project in its entirety — including what the objectives are, how it will be carried out, and who the stakeholders are. It is a crucial ingredient in planning out the project because it is used throughout the project lifecycle.
+
+Project proposal report 12th March 2019	
+A project proposal is a detailed description of a series of activities aimed at solving the research problem. In order to be successful, the document should provide a logical presentation of the research idea and illustrate the significance of the idea. Project proposal document is for organizing time and resources to complete the project with high standard. It is an informal Contract to establish an agreement about the content and limits of the final output. This is a single document which should prepare by the group.
+
+Project Proposal document - 5%
+Project Proposal presentation - 5%
+
+SRS Documentation
+The aim of this document is to gather and analyze and give an in-depth insight of the complete system by defining the problem statement in detail. Nevertheless, it also concentrates on the capabilities required by stakeholders and their needs while defining high-level product features. The detailed requirements of the system are provided in this document.
+
+One Group SRS and four individual SRS documents - 6%
+Project Status Document (Gantt chart)- 1%
+
+Progress Presentation I
+In this presentation 50% completed system is evaluated and further development areas are discussed.
+
+Progress Presentation - 10%
+
+Research paper
+Overall research findings of the group are aggregated in to one research paper or several individual research papers. 
+Full marks are awarded if the research paper is published in a highly recognized conference.
+Research paper - 10%
+
+
+Progress Presentation II
+In this assessment 90% developed system is demonstrated along with the poster. Here, the examiners evaluate whether the system meets 90% of the requirements defined in SRS and give suggestions on the areas that should be developed.
+
+Progress Presentation - 18%
+
+Website Assessment 15th September 2019
+Website designed for marketing purpose of the system is assessed here.
+Website Assessment - 4%
+
+Final report (Individual) 16th September 2019
+Each individual report must be written by the sole author, clearly state their Individual objectives, theme, contribution and must clearly demonstrate the individual’s work.
+
+Individual report - 15%
+
+Project Status document - 1%
+
+Final Presentation & Viva 13th-15th November
+
+Video demonstration of the completed sytem is evaluated here. and during the viva aach student is evaluated on the understanding of the programming concepts, coding, thoeries etc.
+
+Presentation - 10%
+
+Viva -15%
+
+
+
+Viva- 15%
